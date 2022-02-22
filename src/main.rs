@@ -55,7 +55,7 @@ async fn main() -> io::Result<()>{
                     .route(web::get().to(render_tmpl))
             )
     })
-    .bind(("1.231.211.181", 8282))? 
+    .bind(("52.79.48.244/", 80))? 
     .run()
     .await
 }
